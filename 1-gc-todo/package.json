@@ -1,6 +1,11 @@
 {
   "name": "1-gc-todo",
   "version": "0.0.0",
+  "author": {
+    "email": "mukutb.mac@gmail.com",
+    "name": "Mukut Brahma",
+    "url": "https://www.mukutbrahma.com/"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
