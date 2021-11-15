@@ -32,13 +32,7 @@ function App() {
     // if the id is empty, it means this is a new todo
     if (!values.id) {
       // Add a new todo to the list
-      setTodos([
-        ...todos,
-        {
-          id: generateId(),
-          ...values,
-        },
-      ]);
+      setTodos([...todos, { id: generateId(), ...values }]);
     } else {
       // Otherwise, find the todo with the same ID and update it
       const updatedTodos = todos.map((todo) => {
